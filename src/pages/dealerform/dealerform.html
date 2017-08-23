@@ -1,0 +1,122 @@
+<!--
+  Generated template for the DealerformPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>ENROLLMENT  FORM <br>(DEALER/DISTRIBUTOR/HASP)</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<h2>HONDA  PORTABLE  PRODUCTS SERVICE TRAINING  PROGRAMME</h2>
+<h3>PERSONAL DETAILS OF APPLICANT</h3>
+  <ion-item>
+    <ion-label floating>Name</ion-label>
+    <ion-input type="text" name="name" [(ngModel)]="name"></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label floating>Address(permanent address)</ion-label>
+    <ion-input type="text" name="address" [(ngModel)]="address"></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label floating>Tel</ion-label>
+    <ion-input type="number" name="tel" [(ngModel)]="tel"></ion-input>
+  </ion-item>
+   <ion-item>
+     <ion-label floating>Mobile</ion-label>
+    <ion-input type="number" name="Mobile" [(ngModel)]="Mobile"></ion-input>
+	</ion-item>
+	 <ion-item>
+  <ion-label floating>Educational Qualification</ion-label>
+          <ion-input type="text" name="edq" [(ngModel)]="edq"></ion-input>
+</ion-item>
+ <ion-item>
+  <ion-label floating>Identification Mark(On Body)</ion-label>
+          <ion-input type="text" name="idmark" [(ngModel)]="idmark"></ion-input>
+</ion-item>
+<p>Upload Photo</p>
+   <ion-item>
+   <ion-input type="file" id="file"></ion-input>
+ </ion-item>
+   <ion-list>
+  <ion-item>
+    <ion-label> PROPOSER</ion-label>
+    <ion-select [(ngModel)]="proposer">
+   <ion-option value="dealer">DEALER</ion-option>
+      <ion-option value="distributor">DISTRIBUTOR</ion-option>
+      <ion-option value="hasp">H.A.S.P.</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+   <ion-list>
+  <ion-item>
+    <ion-label>PRODUCT</ion-label>
+    <ion-select [(ngModel)]="product">
+   <ion-option value="genset">GENSET</ion-option>
+      <ion-option value="pumpset">PUMPSET</ion-option>
+      <ion-option value="cbu">CBU</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+<ion-item>
+    <ion-label floating>Name</ion-label>
+    <ion-input type="text" name="name" [(ngModel)]="name"></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label floating>Address</ion-label>
+    <ion-input type="text" name="address" [(ngModel)]="address"></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label floating>Tel</ion-label>
+    <ion-input type="number" name="tel" [(ngModel)]="tel"></ion-input>
+  </ion-item>
+   <ion-item>
+     <ion-label floating>Mobile</ion-label>
+    <ion-input type="number" name="Mobile" [(ngModel)]="Mobile"></ion-input>
+	</ion-item>
+   <ion-item>
+     <ion-label floating>Remarks</ion-label>
+    <ion-input type="number" name="remarks" [(ngModel)]="Mobile"></ion-input>
+	</ion-item>
+	<p>I hereby sponsor the name of MR <ion-input type="text" name="remarks" [(ngModel)]="Mobile"></ion-input>and request you to accept  this enrollment form and hereby confirm his  a  tien  dance,  in the 
+scheduled training programme.
+</p>
+<p>Upload signature of Proposer with Seal</p>
+   <ion-item>
+   <ion-input type="file" id="file"></ion-input>
+ </ion-item>
+ <p>Upload signature of Technician</p>
+   <ion-item>
+   <ion-input type="file" id="file"></ion-input>
+ </ion-item>
+ <h3>Training History</h3>
+ <ion-grid>
+  <ion-row>
+    <ion-col>PRODUCT</ion-col>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>  
+  </ion-row>
+    <ion-row>
+    <ion-col>LEVEL</ion-col>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>  
+  </ion-row>
+    <ion-row>
+    <ion-col>PERIOD</ion-col>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>  
+  </ion-row>
+   </ion-grid>
+</ion-content>

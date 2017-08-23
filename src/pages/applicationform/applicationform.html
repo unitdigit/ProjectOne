@@ -1,0 +1,617 @@
+<!--
+  Generated template for the HaspApplicationformPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>hasp-applicationform</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<h2>HONDA AUTHORISED SERVICE POINT (HASP)</h2>
+<h3>APPLICATION FORM</h3>
+<p>Territory / Town wish to cover</p>
+<ion-list>
+  <ion-item>
+    <ion-label>Existing population of Honda Power Products</ion-label>
+    <ion-select [(ngModel)]="gaming">
+      <ion-option value="250-500">250-500</ion-option>
+      <ion-option value="500-1000">500-1000</ion-option>
+      <ion-option value="1000-2000">1000-2000</ion-option>
+
+    </ion-select>
+  </ion-item>
+</ion-list>
+<h4>GENERAL</h4>
+  <ion-item>
+    <ion-label floating>Name of the Applicant(Establishment Name)</ion-label>
+    <ion-input type="text" name="name" [(ngModel)]="app_name"></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label floating>Address</ion-label>
+    <ion-input type="text" name="address" [(ngModel)]="address"></ion-input>
+  </ion-item>
+     <ion-item>
+    <ion-label floating>Aadhar No.(UID)</ion-label>
+    <ion-input type="text" name="aadhar_num" [(ngModel)]="aadhar_num"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>PIN</ion-label>
+    <ion-input type="text" name="pin" [(ngModel)]="pin"></ion-input>
+	</ion-item>
+  <ion-item>
+    <ion-label floating>Mobile</ion-label>
+    <ion-input type="number" name="Mobile" [(ngModel)]="Mobile"></ion-input>
+	</ion-item>
+  <ion-item>
+    <ion-label floating>Fax</ion-label>
+    <ion-input type="number" name="Fax" [(ngModel)]="Fax"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Pin Code</ion-label>
+    <ion-input type="number" name="pincode" [(ngModel)]="pincode"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Tel</ion-label>
+    <ion-input type="number" name="tel" [(ngModel)]="tel"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>E-mail</ion-label>
+    <ion-input type="email" name="email" [(ngModel)]="email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>CST/GST No.</ion-label>
+    <ion-input type="text" name="cstnum" [(ngModel)]="cstnum"></ion-input>
+  </ion-item>
+  <ion-item>
+  <ion-label>CST/GST Date</ion-label>
+  <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="cstDate"></ion-datetime>
+</ion-item>
+  <ion-item>
+    <ion-label floating>TIN No.</ion-label>
+    <ion-input type="text" name="tinnum" [(ngModel)]="tinnum"></ion-input>
+  </ion-item>
+    <ion-item>
+  <ion-label>TIN Date</ion-label>
+  <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="tinDate"></ion-datetime>
+</ion-item>
+<ion-list>
+  <ion-item>
+    <ion-label>Status of Establishment</ion-label>
+    <ion-select [(ngModel)]="gaming">
+      <ion-option value="company">Company</ion-option>
+      <ion-option value="partnership">Partnership</ion-option>
+      <ion-option value="proprietorship">Proprietorship</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+<ion-list>
+  <ion-item>
+    <ion-label>If Company, please indicate the nature of Company</ion-label>
+    <ion-select [(ngModel)]="gaming">
+      <ion-option value="private">Private Limited</ion-option>
+      <ion-option value="public">Public Limited</ion-option>
+
+    </ion-select>
+  </ion-item>
+</ion-list>
+<p>If Company, please indicate</p>
+    <ion-item>
+  <ion-label>Date of establishment</ion-label>
+       <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="esDate"></ion-datetime>
+</ion-item>
+    <ion-item>
+  <ion-label>Paid up capital</ion-label>
+          <ion-input type="text" name="capital" [(ngModel)]="capital"></ion-input>
+</ion-item>
+<p>Name(s) of Director(s) along with educational qualifications and share holding</p>
+<p>Details of Director 1</p>
+    <ion-item>
+  <ion-label>Name of Director</ion-label>
+          <ion-input type="text" name="dname1" [(ngModel)]="dname1"></ion-input>
+</ion-item>
+ <ion-item>
+  <ion-label>Educational Qualification</ion-label>
+          <ion-input type="text" name="edq1" [(ngModel)]="edq1"></ion-input>
+</ion-item>
+ <ion-item>
+  <ion-label>Share Holding</ion-label>
+          <ion-input type="text" name="share1" [(ngModel)]="share1"></ion-input>
+</ion-item>
+<p>Details of Director 2</p>
+    <ion-item>
+  <ion-label>Name of Director</ion-label>
+          <ion-input type="text" name="dname2" [(ngModel)]="dname2"></ion-input>
+</ion-item>
+ <ion-item>
+  <ion-label>Educational Qualification</ion-label>
+          <ion-input type="text" name="edq2" [(ngModel)]="edq2"></ion-input>
+</ion-item>
+ <ion-item>
+  <ion-label>Share Holding</ion-label>
+          <ion-input type="text" name="share2" [(ngModel)]="share2"></ion-input>
+</ion-item>
+<p>Details of Director 3</p>
+    <ion-item>
+  <ion-label>Name of Director</ion-label>
+          <ion-input type="text" name="dname3" [(ngModel)]="dname3"></ion-input>
+</ion-item>
+ <ion-item>
+  <ion-label>Educational Qualification</ion-label>
+          <ion-input type="text" name="edq3" [(ngModel)]="edq3"></ion-input>
+</ion-item>
+ <ion-item>
+  <ion-label>Share Holding</ion-label>
+          <ion-input type="text" name="share3" [(ngModel)]="share3"></ion-input>
+</ion-item>
+<p>Kindly indicate name(s) of key person(s) who will be operating with HSPP along with 
+proposed organization structure</p>
+<p>Details of Person 1</p>
+    <ion-item>
+  <ion-label>Name</ion-label>
+          <ion-input type="text" name="pname1" [(ngModel)]="pname1"></ion-input>
+</ion-item>
+    <ion-item>
+  <ion-label>Designation</ion-label>
+          <ion-input type="text" name="designation1" [(ngModel)]="designation1"></ion-input>
+</ion-item>
+<p>Details of Person 2</p>
+    <ion-item>
+  <ion-label>Name</ion-label>
+          <ion-input type="text" name="pname2" [(ngModel)]="pname2"></ion-input>
+</ion-item>
+    <ion-item>
+  <ion-label>Designation</ion-label>
+          <ion-input type="text" name="designation2" [(ngModel)]="designation2"></ion-input>
+</ion-item>
+<h3>FACILITIES</h3>
+<p>What, according to you, would be the annual service demand in your territory for Honda range of Generator / GP Engine / Water pump / Tiller / Brush Cutter / Lawn Mower / Sprayer Pump / LTOB Engine etc.(units per annum) ?</p>
+   <ion-item>
+ 
+          <ion-input type="text" name="amount" [(ngModel)]="amount"></ion-input>
+</ion-item>
+<p>What, according to you, would be the service ratio in your territory for Honda Power Products ?<br>
+Service Ratio=No. of Sets Serviced (Expected)/Total No. of Sets (Available)
+</p>
+   <ion-item>
+ 
+          <ion-input type="text" name="sratio" [(ngModel)]="sratio"></ion-input>
+</ion-item>
+<p>From which location do you wish to prefer to cater to your territory (if different from place indicated in your address)</p>
+   <ion-item>
+          <ion-input type="text" name="location" [(ngModel)]="locationv"></ion-input>
+</ion-item>
+<p>Do you have existing facilities for operating this service point ?</p>
+<ion-list>
+  <ion-item>
+    <ion-label>Select</ion-label>
+    <ion-select [(ngModel)]="gaming">
+      <ion-option value="yes">Yes</ion-option>
+      <ion-option value="no">No</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+<p>Present facilities (if any).<br>
+Please attach photographs and also attach a map of the area indicating your location</p>
+  <ion-item>
+   <ion-input type="file" id="file"></ion-input>
+ </ion-item>
+ <ion-grid>
+  <ion-row>
+    <ion-col>
+      
+    </ion-col>
+    <ion-col>
+      Location
+    </ion-col>
+    <ion-col>
+      Area(Sq Ft)
+    </ion-col>
+	  <ion-col>
+      Owned/Leased
+    </ion-col>
+	<ion-col>If Leased, state Leased Annual Rent, Lease Expiry Date and Renewal Date </ion-col>
+   
+  </ion-row>
+  <ion-row>
+    <ion-col>1. Existing</ion-col>
+    <ion-col>
+    <ion-input type="text" name="location" [(ngModel)]="locationv"></ion-input>
+    </ion-col> 
+    <ion-col>
+      <ion-input type="text" name="location" [(ngModel)]="locationv"></ion-input>
+    </ion-col>
+	  <ion-col>
+ <ion-input type="text" name="location" [(ngModel)]="locationv"></ion-input>
+    </ion-col> 
+  <ion-col>
+    <ion-input type="text" name="location" [(ngModel)]="locationv"></ion-input>
+    </ion-col> 	
+  </ion-row>
+  <ion-row>
+      <ion-col>1.1 Reception</ion-col>
+    
+    <ion-col>
+     <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+    <ion-col>
+      <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+	  <ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+	  <ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+   
+  </ion-row>
+  <ion-row>
+    
+  
+      <ion-col>1.2 Showroom </ion-col>
+   
+    <ion-col>
+     <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+    <ion-col>
+      <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+	  <ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+	  <ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col> 
+   
+  </ion-row>
+    <ion-row>   
+
+      <ion-col>1.3 Workshop </ion-col>
+  
+    <ion-col>
+     <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+    <ion-col>
+      <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+	  <ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col> 
+		  <ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col> 
+  </ion-row>
+<ion-row>   
+
+      <ion-col>2.Proposed </ion-col>
+  
+    <ion-col>
+     <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+    <ion-col>
+      <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+	  <ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col> 
+	<ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col> 
+  </ion-row>
+  <ion-row>   
+
+      <ion-col>2.1 Reception </ion-col>
+  
+    <ion-col>
+     <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+    <ion-col>
+      <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+	  <ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col> 
+	<ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col> 
+  </ion-row>
+    <ion-row>   
+
+      <ion-col>2.2  Workshop </ion-col>
+  
+    <ion-col>
+     <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+    <ion-col>
+      <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col>
+	  <ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col> 
+	<ion-col>
+          <ion-input type="text" name="location" [(ngModel)]="location"></ion-input>
+    </ion-col> 
+  </ion-row>
+</ion-grid>
+<p>Please attach a layout of existing / proposed facilities with details of space / area marked 
+for HASP in the Showroom and Workshop</p>
+<ion-item>
+   <ion-input type="file" id="file"></ion-input>
+ </ion-item>
+ <p>Plan for arranging Reception & Workshop for HSPP. 
+(Proposal & Time frame)</p>
+<ion-item>
+   <ion-input type="text" name="time" [(ngModel)]="time"></ion-input>
+ </ion-item>
+ <h3>BUSINESS EXPERIENCE</h3>
+ <p>Do you own, operate or have a financial interest in, or have you ever previously owned, operated or had financial interest in any Generators / Two wheelers / Consumer Durable / GP Engines / Water pumps dealership ?If yes, indicate :</p>
+ <ion-list>
+  <ion-item>
+    <ion-label>Select</ion-label>
+    <ion-select [(ngModel)]="gaming">
+   <ion-option value="yes">Yes</ion-option>
+      <ion-option value="no">No</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+ <ion-grid>
+  <ion-row>
+    <ion-col>Make (s) handled</ion-col>
+    <ion-col>Owned / operated / had financial interest</ion-col>
+    <ion-col>Annual sales in the last year of the business handled by you</ion-col>
+	<ion-col>Period </ion-col>  
+	<ion-col>City & Territory </ion-col>  
+	<ion-col>Reason for discontinuation, if any</ion-col>  
+  </ion-row>
+  <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+  </ion-row>
+    <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+  </ion-row>
+    <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+  </ion-row>
+    <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+  </ion-row>
+  </ion-grid> 
+  <p>Give details of business lines handled by you presently </p>
+   <ion-grid>
+  <ion-row>
+    <ion-col>Product</ion-col>
+    <ion-col>Company</ion-col>
+    <ion-col>Turnover (Rs.)(for the Last Completed Financial Year)</ion-col>
+
+  </ion-row>
+  <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+  
+  </ion-row>
+    <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+
+  </ion-row>
+    <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+
+  </ion-row>
+      <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    Other</ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+  </ion-row>
+        <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>Total</ion-col>
+    <ion-col><ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+  </ion-row>
+
+  </ion-grid>
+<p>Name of the important Two Wheeler and Power Product dealers in your city.</p> 
+   <ion-grid>
+  <ion-row>
+    <ion-col>Name of Dealer</ion-col>
+    <ion-col>Product</ion-col>
+    <ion-col>Sales per month</ion-col>
+  </ion-row>
+  <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+ 
+  </ion-row>
+    <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+  </ion-row>
+    <ion-row>
+      <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+    <ion-col>    <ion-input type="text" name="location" [(ngModel)]="location"></ion-input></ion-col>
+  </ion-row>
+  </ion-grid>
+<h3>FINANCIAL BACKGROUND</h3>
+<p>Please state the amount of capital you estimate to invest in HASP ?</p>
+ <ion-input type="text" name="location" [(ngModel)]="location" placeholder="Amount(in Rs.)"></ion-input>
+ <p>Will any funds required for investment, be borrowed ?</p>
+  <ion-list>
+  <ion-item>
+    <ion-label>Select</ion-label>
+    <ion-select [(ngModel)]="gaming">
+   <ion-option value="yes">Yes</ion-option>
+      <ion-option value="no">No</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+ <p>Kindly indicate if there are any mortgages, pledges, lines, encumbrances or liabilities which will affect your franchise.</p>
+  <ion-list>
+  <ion-item>
+    <ion-label>Select</ion-label>
+    <ion-select [(ngModel)]="gaming">
+   <ion-option value="yes">Yes</ion-option>
+      <ion-option value="no">No</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+<p>For reference purpose, please provide the following information:</p>
+  <ion-item>
+    <ion-label floating>Banker Name</ion-label>
+    <ion-input type="text" name="bname" [(ngModel)]="banker_name"></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label floating>Branch</ion-label>
+    <ion-input type="text" name="branch" [(ngModel)]="branch"></ion-input>
+  </ion-item>
+     <ion-item>
+    <ion-label floating>Account No.</ion-label>
+    <ion-input type="text" name="acc_num" [(ngModel)]="acc_num"></ion-input>
+  </ion-item>
+      <ion-item>
+    <ion-label floating>IFSC Code</ion-label>
+    <ion-input type="text" name="code" [(ngModel)]="code"></ion-input>
+  </ion-item>
+ <p>Please attach reference letter from your Banker and a cancelled Cheque leaf.</p>
+ <ion-item>
+   <ion-input type="file" id="file"></ion-input>
+ </ion-item>
+   <ion-item>
+    <ion-label floating>Other Reference</ion-label>
+    <ion-input type="text" name="ref" [(ngModel)]="ref"></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label floating>Address</ion-label>
+    <ion-input type="text" name="add" [(ngModel)]="add"></ion-input>
+  </ion-item>
+  <p>If public limited / private limited company, kindly enclose profit & loss account and balance sheet for last 2 years. Also attach Memorandum of Article of association.</p>
+   <ion-item>
+   <ion-input type="file" id="file"></ion-input>
+ </ion-item>
+   <p>If partnership concern, enclose partnership agreement.</p>
+   <ion-item>
+   <ion-input type="file" id="file"></ion-input>
+ </ion-item>
+  <p>Attach copy of signature with stamp and date.</p>
+   <ion-item>
+   <ion-input type="file" id="file"></ion-input>
+ </ion-item>
+   <p>Other Miscellaneous</p>
+   <ion-item>
+   <ion-input type="file" id="file"></ion-input>
+ </ion-item>
+ <h3>LIST OF ENCLOSURES</h3>
+ <ion-list>
+
+  <ion-item>
+    <ion-label>Letter of request for HASP</ion-label>
+    <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Copy of PAN</ion-label>
+    <ion-checkbox [(ngModel)]="sausage"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Copy of TIN No. Regn. Certificate</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+  <ion-item>
+    <ion-label>Bio-Data (If individual / proprietorship)</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+    <ion-item>
+    <ion-label> Copy of Partnership Deed (if partnership)</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+    <ion-item>
+    <ion-label>Area Map showing HASP Location</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+    <ion-item>
+    <ion-label>Workshop Layout Plan</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+    <ion-item>
+    <ion-label>Photographs of present facilities / site</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+      <ion-item>
+    <ion-label>Bank Reference Letter</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+      <ion-item>
+    <ion-label>Photographs of present facilities / site</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+      <ion-item>
+    <ion-label>Cancelled Cheque</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+      <ion-item>
+    <ion-label>Photographs of present facilities / site</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+        <ion-item>
+    <ion-label>Profit & Loss A/c (if Company.)</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+        <ion-item>
+    <ion-label>Photographs of present facilities / site</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+        <ion-item>
+    <ion-label>Balance Sheet (if Company)</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+        <ion-item>
+    <ion-label>Memorandum of Article (if Company)</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+          <ion-item>
+    <ion-label>Mortgage & Liabilities Details (if any)</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+          <ion-item>
+    <ion-label>Copy of Aadhar ID</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+          <ion-item>
+    <ion-label>Copy of CST/GST No. Regn. Certificate</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+</ion-list>
+</ion-content>
