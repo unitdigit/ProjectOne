@@ -1,23 +1,34 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Login
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
 <ion-content padding>
-  <ion-item>
-    <ion-label floating>Email</ion-label>
-    <ion-input type="email" [(ngModel)]="user.email"></ion-input>
-  </ion-item>
-    <ion-item>
-    <ion-label floating>Password</ion-label>
-    <ion-input type="password" [(ngModel)]="user.password"></ion-input>
-  </ion-item>
-  <div class="spacer" style="height:10px"></div>
-   <div class="spacer" style="height: 20px;text-align:center">
-        <a (click)="passwordreset()" >Forgot login details ? <b> Get Help </b></a></div>
-	<button ion-button block outline round (click)="loginUser()">Login</button>
-	  <button ion-button clear full  (click)="signup()">Don't have an account? Sign up</button>
+
+    <div id="wrapper">
+        <div id="box">
+            <div id="top_header">
+                <h3>Login</h3>
+                <h5>Sign in to continue to your profile page.</h5>
+            </div>
+          
+          <div id="inputs">
+            <form id='login' action='' method='post' accept-charset='UTF-8' style="margin-left:6px;">
+          
+          <input type='hidden' name='submitted' id='submitted' value='1'/>
+  
+          <div class='container'>
+            <input type='text' name='username' id='username' value='' maxlength="50" size="30" placeholder="Username" [(ngModel)]="user.email" /><br/>
+          </div>
+          
+          <div class='container'>
+            <input type='password' name='password' id='password' maxlength="50" size="30" placeholder="Password"  [(ngModel)]="user.password" /><br/>
+          </div>
+          
+          <div class='container'>
+            <input type='submit' name='Submit' (click)="loginUser()" value='Login' />
+          </div>
+  
+        </form>
+
+          </div>
+        </div>
+      </div>
+
 </ion-content>
