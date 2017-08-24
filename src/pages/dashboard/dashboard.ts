@@ -7,6 +7,7 @@ import { HomePage } from '../home/home';
 import { DealerdetailsPage } from '../dealerdetails/dealerdetails';
 import { RetailerdetailsPage } from '../retailerdetails/retailerdetails';
 import { RuraldetailsPage } from '../ruraldetails/ruraldetails';
+import { ChatPage } from '../chat/chat';
 
 /**
  * Generated class for the DashboardPage page.
@@ -38,6 +39,12 @@ export class DashboardPage {
 
   rural(){
     this.navCtrl.push(RuraldetailsPage);
+  }
+
+  chat(){
+/*    this.navCtrl.push(ChatPage,{
+   username:this.username
+   });*/
   }
 
 }

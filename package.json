@@ -1,5 +1,5 @@
 {
-    "name": "firstapp",
+    "name": "projectOne",
     "version": "0.0.1",
     "author": "Ionic Framework",
     "homepage": "http://ionicframework.com/",
@@ -29,7 +29,6 @@
         "@ionic/storage": "2.0.1",
         "angularfire2": "^4.0.0-rc.2",
         "cordova-android": "^6.2.3",
-        "cordova-ios": "^4.4.0",
         "cordova-plugin-compat": "^1.0.0",
         "cordova-plugin-console": "^1.0.5",
         "cordova-plugin-device": "^1.1.4",
@@ -66,8 +65,7 @@
             "ionic-plugin-keyboard": {}
         },
         "platforms": [
-            "android",
-            "ios"
+            "android"
         ]
     }
 }

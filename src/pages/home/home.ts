@@ -48,12 +48,11 @@ export class HomePage {
 		 this.username = userdata.displayName;
 	console.log(this.username);
 		 });
-      //this.navCtrl.push(DashboardPage);
-      //this.navCtrl.push(ApplicationformPage);
+      this.navCtrl.push(DashboardPage);
    //this.navCtrl.setRoot(ProfilepicPage);
-	 this.navCtrl.push(ChatPage,{
+	 /*this.navCtrl.push(ChatPage,{
 	 username:this.username
-	 });
+	 });*/
     }) .catch(err => {
             this.showAlert('Error', 'Invalid Username or Password');
         });
