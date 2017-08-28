@@ -7,55 +7,34 @@
 </ion-header>
 
 <ion-content padding>
-<ion-card>
-
-  <ion-item>
-   <ion-row>
-   <ion-col>
-   <h2>Dealer</h2>
-
-<p>22,700</p>
-      
-	
-</ion-col>
-
-<ion-col>
-<img  src="../assets/images/Dealer.jpg" />
-</ion-col>
-   </ion-row> 
- 
-  </ion-item>
- 
-</ion-card>
-<ion-card>
-
-  <ion-item>
-   <ion-row>
-   <ion-col>
-   <h2>Retailer</h2>
-<p>50,700</p>	
-</ion-col>
-
-<ion-col>
- <img src="../assets/images/Retailer-Mech.jpg" />
-</ion-col>
-   </ion-row> 
- 
-  </ion-item>
+  <ion-card>
+    <ion-item>
+      <ion-row>
+        <ion-col (click) = "dealerList();">
+          <p>873</p>
+          <h2>Dealer</h2>
+        </ion-col>
+      </ion-row>
+    </ion-item>
   </ion-card>
   <ion-card>
-   <ion-item>
-   <ion-row>
-   <ion-col>
-   <h2>Rural<br> Mechanic</h2>
-<p>40,700</p>	
-</ion-col>
-
-<ion-col>
-  <img src="../assets/images/Rural-Mech.jpg"/>
-</ion-col>
-   </ion-row> 
- 
-  </ion-item>
-</ion-card>
+    <ion-item>
+      <ion-row>
+        <ion-col (click) = "retailerMechanicList();">
+          <p>9,196</p>
+          <h2>Retailer Mechanic</h2>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item>
+      <ion-row>
+        <ion-col (click) = "ruralMechanicList();">
+          <p>21,704</p>
+          <h2>Rural Mechanic</h2>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+  </ion-card>
 </ion-content>

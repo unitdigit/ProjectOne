@@ -14,9 +14,15 @@ import { ProfilepicPage } from '../pages/profilepic/profilepic';
 import { PasswordresetPage } from '../pages/passwordreset/passwordreset';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { ApplicationformPage } from '../pages/applicationform/applicationform';  
+
 import { DealerdetailsPage } from '../pages/dealerdetails/dealerdetails';
-import { RetailerdetailsPage } from '../pages/retailerdetails/retailerdetails';
-import { RuraldetailsPage } from '../pages/ruraldetails/ruraldetails';
+import { RetailermechanicdetailsPage } from '../pages/retailermechanicdetails/retailermechanicdetails';
+import { RuralmechanicdetailsPage } from '../pages/ruralmechanicdetails/ruralmechanicdetails';
+
+import { DealerlistPage } from '../pages/dealerlist/dealerlist';
+import { RetailermechaniclistPage } from '../pages/retailermechaniclist/retailermechaniclist';
+import { RuralmechaniclistPage } from '../pages/ruralmechaniclist/ruralmechaniclist';
+
 import { DealerformPage } from '../pages/dealerform/dealerform';
 import { RetailerformPage } from '../pages/retailerform/retailerform';
 import { RuralmechanicformPage } from '../pages/ruralmechanicform/ruralmechanicform';
@@ -50,8 +56,11 @@ var config = {
     DashboardPage,
     ApplicationformPage,
     DealerdetailsPage,
-    RetailerdetailsPage,
-    RuraldetailsPage,
+    RetailermechanicdetailsPage,
+    RuralmechanicdetailsPage,
+    DealerlistPage,
+    RetailermechaniclistPage,
+    RuralmechaniclistPage,
     DealerformPage,
     RetailerformPage,
     RuralmechanicformPage
@@ -74,8 +83,11 @@ var config = {
     DashboardPage,
     ApplicationformPage,
     DealerdetailsPage,
-    RetailerdetailsPage,
-    RuraldetailsPage,
+    RetailermechanicdetailsPage,
+    RuralmechanicdetailsPage,
+    DealerlistPage,
+    RetailermechaniclistPage,
+    RuralmechaniclistPage,
     DealerformPage,
     RetailerformPage,
     RuralmechanicformPage

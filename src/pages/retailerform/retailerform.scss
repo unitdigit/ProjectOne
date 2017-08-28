@@ -1,3 +1,27 @@
-page-retailerform {
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
+page-retailerform {
+  font-family: 'Lato', sans-serif;
+  
+    .content {
+      background: #303e52 !important;
+    }
+	.toolbar-title-md {
+		color: #ff4081;
+	}
+  h2 {
+    color: #fff;
+  }
+
+  h3 {
+      color: #fff;
+  }
+
+  ion-col.col {
+      color: #fff;
+  }
+
+  p {
+      color: #fff;
+  }
 }

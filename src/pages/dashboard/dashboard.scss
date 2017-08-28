@@ -1,12 +1,31 @@
-page-dashboard {
-ion-col h2{
-	font-size:3rem !important;
-}
-ion-col p{
-	font-size: 3.4rem !important;
-}
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
-.button-ios {
-background-color:#12387c;
-}
+page-dashboard {
+  font-family: 'Lato', sans-serif;
+  
+    .content {
+      background: #303e52 !important;
+    }
+
+	ion-col h2{
+		font-size:2rem !important;
+	}
+	ion-col p{
+		font-size: 3.4rem !important;
+	}
+	ion-item.item.item-block.item-md {
+    	//background-color: #fdb640;
+    	text-align: center;
+	}
+	.card-md {
+  		margin: 40px 10px;
+		ion-col p{
+			color: #ff4081;
+		} 
+	}
+
+	.toolbar-title-md {
+		color: #ff4081;
+	}
+
 }

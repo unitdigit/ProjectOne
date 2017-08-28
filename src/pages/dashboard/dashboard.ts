@@ -1,15 +1,8 @@
 import { Component } from '@angular/core';
 import {  NavController, NavParams, } from 'ionic-angular';
-import { DealerdetailsPage } from '../dealerdetails/dealerdetails';
-import { RetailerdetailsPage } from '../retailerdetails/retailerdetails';
-import { RuraldetailsPage } from '../ruraldetails/ruraldetails';
-
-/**
- * Generated class for the DashboardPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
+import { DealerlistPage } from '../dealerlist/dealerlist';
+import { RetailermechaniclistPage } from '../retailermechaniclist/retailermechaniclist';
+import { RuralmechaniclistPage } from '../ruralmechaniclist/ruralmechaniclist';
 
 @Component({
   selector: 'page-dashboard',
@@ -24,22 +17,20 @@ export class DashboardPage {
     console.log('ionViewDidLoad DashboardPage');
   }
 
-  dealer(){
-    this.navCtrl.push(DealerdetailsPage);
+  dealerList(){
+    this.navCtrl.push(DealerlistPage);
   }
 
-  retailer(){
-    this.navCtrl.push(RetailerdetailsPage);
+  retailerMechanicList(){
+    this.navCtrl.push(RetailermechaniclistPage);
   }
 
-  rural(){
-    this.navCtrl.push(RuraldetailsPage);
+  ruralMechanicList(){
+    this.navCtrl.push(RuralmechaniclistPage);
   }
 
-  chat(){
-/*    this.navCtrl.push(ChatPage,{
+/*  chat(){
+    this.navCtrl.push(ChatPage,{
    username:this.username
    });*/
   }
-
-}

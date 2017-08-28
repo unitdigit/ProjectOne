@@ -1,15 +1,9 @@
 import { Component, NgZone } from '@angular/core';
 import { NavController, NavParams, LoadingController } from 'ionic-angular';
+import firebase from 'firebase';
 import { ImghandlerProvider } from '../../providers/imghandler/imghandler';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { HomePage } from '../home/home';
-
-/**
- * Generated class for the ProfilepicPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
 
 @Component({
   selector: 'page-profilepic',

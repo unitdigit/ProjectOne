@@ -3,16 +3,16 @@ import { NavController, NavParams } from 'ionic-angular';
 import { ProfilepicPage } from '../profilepic/profilepic';
 
 @Component({
-  selector: 'page-dealerdetails',
-  templateUrl: 'dealerdetails.html',
+  selector: 'page-retailermechanicdetails',
+  templateUrl: 'retailermechanicdetails.html',
 })
-export class DealerdetailsPage {
+export class RetailermechanicdetailsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DealerdetailsPage');
+    console.log('ionViewDidLoad RetailermechanicdetailsPage');
   }
 
   editProfile(){
@@ -24,6 +24,5 @@ export class DealerdetailsPage {
     console.log("Profile saved");
     this.navCtrl.pop();
   }
-  
-}
 
+}

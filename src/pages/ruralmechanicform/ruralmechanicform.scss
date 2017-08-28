@@ -1,3 +1,35 @@
-page-ruralmechanicform {
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
+page-ruralmechanicform {
+  font-family: 'Lato', sans-serif;
+  
+    .content {
+      background: #303e52 !important;
+    }
+	.toolbar-title-md {
+		color: #ff4081;
+	}
+	.card-md {
+  		margin: 40px 10px;
+		ion-col p{
+			color: #ff4081;
+		} 
+	}
+
+	h2 {
+    color: #fff;
+  }
+
+  h3 {
+      color: #fff;
+  }
+
+  ion-col.col {
+      color: #fff;
+  }
+
+  p {
+      color: #fff;
+  }
+    
 }
