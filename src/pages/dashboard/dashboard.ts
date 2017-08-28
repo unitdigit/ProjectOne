@@ -1,13 +1,8 @@
 import { Component } from '@angular/core';
 import {  NavController, NavParams, } from 'ionic-angular';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
-import firebase from 'firebase';
-import { AngularFireAuth } from 'angularfire2/auth';
-import { HomePage } from '../home/home';
 import { DealerdetailsPage } from '../dealerdetails/dealerdetails';
 import { RetailerdetailsPage } from '../retailerdetails/retailerdetails';
 import { RuraldetailsPage } from '../ruraldetails/ruraldetails';
-import { ChatPage } from '../chat/chat';
 
 /**
  * Generated class for the DashboardPage page.

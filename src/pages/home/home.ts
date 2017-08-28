@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
 import { NavController, AlertController } from 'ionic-angular';
 import { AngularFireAuth } from 'angularfire2/auth';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+//import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 import firebase from 'firebase';
 
-import { ChatPage } from '../chat/chat';
 import { SignupPage } from '../signup/signup';
 import { PasswordresetPage } from '../passwordreset/passwordreset';
-import { ProfilepicPage } from '../profilepic/profilepic';
 import { DashboardPage } from '../dashboard/dashboard';
-import { ApplicationformPage } from '../applicationform/applicationform';
 
 @Component({
   selector: 'page-home',

@@ -5,10 +5,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { AngularFireAuth } from 'angularfire2/auth';
-import { ChatPage } from '../pages/chat/chat';
+
 @Component({
   templateUrl: 'app.html'
 })
+
 export class MyApp {
   rootPage:any = HomePage;
 
@@ -20,8 +21,6 @@ export class MyApp {
         this.rootPage = ChatPage; 
     });*/
     platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
       statusBar.styleDefault();
       splashScreen.hide();
     });

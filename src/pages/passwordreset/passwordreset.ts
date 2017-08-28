@@ -1,15 +1,6 @@
 import { Component } from '@angular/core';
 import {  NavController, NavParams,AlertController} from 'ionic-angular';
-   import firebase from 'firebase';
-import { HomePage } from '../home/home';
-
-/**
- * Generated class for the PasswordresetPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-
+import firebase from 'firebase';
 
 @Component({
   selector: 'page-passwordreset',
